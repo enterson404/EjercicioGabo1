@@ -1,0 +1,83 @@
+header{
+    background-color: rgb(68, 67, 70);
+    height: 50px;
+
+}
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0%;
+}
+
+header img{
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    padding: 10px;
+
+}
+
+nav{
+    text-align: right;
+
+
+}
+ul{
+    list-style-type: none;
+
+}
+li{
+    display: inline-block;
+    padding: 20px;
+    color: rgb(162, 154, 144);
+}
+li:hover{
+    background-color: rgb(91, 145, 86);
+}
+
+main image{
+   position: absolute;
+   /* width: auto;
+   height: 100%; */
+   block-size: auto;
+}
+
+p{
+    
+    position: absolute;right: 250px;bottom: 300px;
+    float: right;
+    width: 90px;
+    height: 100px;
+    padding: 3px;
+    margin: 1px;
+    font-size: 600%;
+    color: blanchedalmond;
+    display: block;
+
+}
+
+/* especificidad es el modo en el cual nuestro navegador interpreta los estilos ce CSS */
+/* toca ver mejor las maneras en las que se puede etiquetar elementos del html desde el Css, pues se pueden manejar por jerarquias del codigo, es decir body, article, p, o una imagen del body a una imagen de un ul, de una section, etc. */
+
+/* etiquetas:https://carontestudio.com/blog/listado-de-propiedades-css/
+clases, atributos: https://blog.hubspot.es/website/selectores-css
+Ids
+Inline tambien es mala práctica!!!!!!!
+
+/* !important (palabra reservada) es una regla para los modficadores de CSS con la misma especificidad pero separado por lineas de código, sirve para ver que está saliendo mal, aunque no es una buena práctica!!! */
+/* -------------------- */
+/* 
+para ajustar una imagen es bueno dejar el height en auto o el witdh en auto(esto lo hace responsive) y mover solo alguno de ellos. tener en cuenta que los pixeles llegan hasta un punto y luego pasamos a mover porcentajes */
+/* --------------------- */
+/* ¿Qué es el Mobile First?
+Mobile first, una forma de mejora progresiva, es un enfoque de desarrollo y diseño web que se enfoca en la priorización del diseño y el desarrollo para dispositivos móviles por encima del diseño y desarrollo para pantallas de escritorio.12 jul 2023 */
+/* ----------------------- */
+
+/* vh. Represents a percentage of the height of the viewport's initial containing block. 1vh is 1% of the viewport height. For example, if the viewport height is 300px , then a value of 70vh on a property will be 210px . */
+/* 
+los navegadores añaden estilos, la solición es poner en el head, en el metadata que esría (el primero)/* <link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/grid.css"> */ 
+/* utilizar fixed 
+utilizar position absolute y ositin relative
+/* definir y entender bien lo que sgnifica parent en el codigo y conocer las ventajas a la hora de utilizar medida  */    
+/* tener en cuenta los media querys en cuanto  */
+/* ir mirando lo de aplicaciones hibridas, mirar frameworks angular, express, node, aws */ 
